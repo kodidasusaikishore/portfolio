@@ -22,8 +22,8 @@ const Contact = () => {
               <div className="bg-white/10 p-3 rounded-full">
                 <Mail className="text-cyan-400" />
               </div>
-              <a href="mailto:saikishore.kodidasu@example.com" className="hover:text-white transition-colors">
-                saikishore.kodidasu@example.com
+              <a href="mailto:Saikishore.Kodidasu@gmail.com" className="hover:text-white transition-colors">
+                Saikishore.Kodidasu@gmail.com
               </a>
             </div>
              <div className="flex items-center space-x-4 text-gray-400">
