@@ -14,7 +14,7 @@ const Projects = () => {
       title: "PreciousPulse 💎",
       desc: "AI-powered bullion tracker & predictor using LSTM & Sentiment Analysis.",
       tech: ["Streamlit", "Python", "TensorFlow", "Plotly"],
-      link: "https://stock-prediction-lstm.streamlit.app/"
+      link: "https://precious-pulse.streamlit.app/"
     },
     {
       title: "Stock Price Prediction",
