@@ -8,8 +8,20 @@ const Projects = () => {
       title: "Portfolio Website",
       desc: "A futuristic, interactive portfolio built with React, Tailwind, and Framer Motion.",
       tech: ["React", "Tailwind", "Framer Motion"],
-      link: "https://github.com/kodidasusaikishore"
+      link: "https://github.com/kodidasusaikishore/myprojects/tree/main/portfolio"
     },
+    {
+      title: "PreciousPulse 💎",
+      desc: "AI-powered bullion tracker & predictor using LSTM & Sentiment Analysis.",
+      tech: ["Streamlit", "Python", "TensorFlow", "Plotly"],
+      link: "https://stock-prediction-lstm.streamlit.app/"
+    },
+    {
+      title: "Stock Price Prediction",
+      desc: "Predicting stock prices using LSTM neural networks with interactive charts.",
+      tech: ["Streamlit", "Python", "TensorFlow", "yfinance"],
+      link: "https://stock-prediction-lstm.streamlit.app/"
+    }
     // Add more later
   ];
 
