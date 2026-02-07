@@ -37,14 +37,14 @@ const Contact = () => {
           </div>
         </div>
 
-        <form className="space-y-4">
+        <form action="https://formspree.io/f/xreaglnk" method="POST" className="space-y-4">
           <div className="grid grid-cols-2 gap-4">
-            <input type="text" placeholder="Name" className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 transition-colors" />
-            <input type="email" placeholder="Email" className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 transition-colors" />
+            <input type="text" name="name" placeholder="Name" required className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 transition-colors" />
+            <input type="email" name="email" placeholder="Email" required className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 transition-colors" />
           </div>
-          <input type="text" placeholder="Subject" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 transition-colors" />
-          <textarea placeholder="Message" rows="4" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 transition-colors"></textarea>
-          <button className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:shadow-lg hover:shadow-cyan-500/20 transition-all transform hover:-translate-y-1">
+          <input type="text" name="subject" placeholder="Subject" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 transition-colors" />
+          <textarea name="message" placeholder="Message" rows="4" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 transition-colors"></textarea>
+          <button type="submit" className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:shadow-lg hover:shadow-cyan-500/20 transition-all transform hover:-translate-y-1">
             Send Message
           </button>
         </form>
