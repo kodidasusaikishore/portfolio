@@ -5,16 +5,16 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Portfolio Website",
-      desc: "A futuristic, interactive portfolio built with React, Tailwind, and Framer Motion.",
-      tech: ["React", "Tailwind", "Framer Motion"],
-      link: "https://github.com/kodidasusaikishore/myprojects/tree/main/portfolio"
-    },
-    {
       title: "PreciousPulse 💎",
       desc: "AI-powered bullion tracker & predictor using LSTM & Sentiment Analysis.",
       tech: ["Streamlit", "Python", "TensorFlow", "Plotly"],
       link: "https://precious-pulse.streamlit.app/"
+    },
+    {
+      title: "RiskQuant 📊",
+      desc: "Comprehensive risk management & options pricing dashboard.",
+      tech: ["Streamlit", "Python", "Black-Scholes", "Monte Carlo"],
+      link: "https://riskquant.streamlit.app"
     },
     {
       title: "Stock Price Prediction",
